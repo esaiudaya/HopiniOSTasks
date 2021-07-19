@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Virutal venue",
+        "description": "Create an immersive attendee experience with interactive programming for both digital and onsite audiences",
+        "score": "5",
+        "details": "stage"
+    },
+    {
+        "id": "2",
+        "name": "Studio by StreamYard",
+        "description": "Produce professional, reliable streams easily leveraging StreamYard's innovative broadcast studio",
+        "score": "5",
+        "details": "StreamYard"
+    },
+    {
+        "id": "3",
+        "name": "Event Marketing",
+        "description": "Promote your event with beatiful, easy to build landing pages designed to drive registrations and ticket sales",
+        "score": "4",
+        "details": "LandingPages"
+    },
+    {
+        "id": "4",
+        "name": "Onsite",
+        "description": "Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval",
+        "score": "5",
+        "details": "hybrid"
+    }
+]
