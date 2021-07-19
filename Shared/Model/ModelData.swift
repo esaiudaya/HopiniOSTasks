@@ -12,7 +12,7 @@ var features: [Feature] = load()
 func load<T: Decodable>() -> T {
     let data: Data
 
-    guard let file = Bundle.main.url(forResource: "featureData", withExtension: "json")
+    guard let file = Bundle.main.url(forResource: "featureDataInfo", withExtension: "json")
     else {
         fatalError("Couldn't find in main bundle.")
     }
