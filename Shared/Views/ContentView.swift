@@ -9,20 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Main contener")
-                .font(.title)
-            HStack {
-                Text("Test 1")
-                    .font(.subheadline)
-                Spacer()
-                Text("Test text")
-                    .font(.subheadline)
+        NavigationView {
+            List {
+            VStack(alignment: .center) {
+                NavigationLink(destination: EditForm()) {
+                    Text("Form")
+                        .font(.title)
+                }
+                
+            }
+                VStack{
+                NavigationLink(destination: FeatureList()) {
+                    Text("List")
+                        .font(.title)
+                    }
+                }
+                
+            }
+                .navigationTitle("Menu")
             }
         }
-        .padding()
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

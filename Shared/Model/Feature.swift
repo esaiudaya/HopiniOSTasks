@@ -8,8 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct Feature: Hashable, Codable {
-    var id: String
+struct Feature: Hashable, Codable, Identifiable {
+    var id: Int
     var name: String
     var description: String
     var score: String
