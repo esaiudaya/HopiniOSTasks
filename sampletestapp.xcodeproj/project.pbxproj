@@ -29,6 +29,14 @@
 		04FE6C5B26A4C3180069CAC2 /* FeatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE6C5926A4C3180069CAC2 /* FeatureRow.swift */; };
 		04FE6C5D26A4C4160069CAC2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE6C5C26A4C4160069CAC2 /* ModelData.swift */; };
 		04FE6C5E26A4C4160069CAC2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE6C5C26A4C4160069CAC2 /* ModelData.swift */; };
+		61EAE64F26B1945B00622558 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE64E26B1945B00622558 /* MenuScreen.swift */; };
+		61EAE65326B1947700622558 /* FormScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65226B1947700622558 /* FormScreen.swift */; };
+		61EAE65526B1948100622558 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65426B1948100622558 /* ListScreen.swift */; };
+		61EAE65926B194FD00622558 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65826B194FD00622558 /* Screen.swift */; };
+		61EAE65B26B1952300622558 /* MenuTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65A26B1952300622558 /* MenuTest.swift */; };
+		61EAE65D26B1952800622558 /* FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65C26B1952800622558 /* FormTests.swift */; };
+		61EAE65F26B1952D00622558 /* ListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE65E26B1952D00622558 /* ListTest.swift */; };
+		61EAE66126B1953800622558 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EAE66026B1953800622558 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +78,14 @@
 		04FE6C3C26A4BF0A0069CAC2 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		04FE6C5926A4C3180069CAC2 /* FeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRow.swift; sourceTree = "<group>"; };
 		04FE6C5C26A4C4160069CAC2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		61EAE64E26B1945B00622558 /* MenuScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuScreen.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/AppScreens/MenuScreen.swift"; sourceTree = "<group>"; };
+		61EAE65226B1947700622558 /* FormScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormScreen.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/AppScreens/FormScreen.swift"; sourceTree = "<group>"; };
+		61EAE65426B1948100622558 /* ListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListScreen.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/AppScreens/ListScreen.swift"; sourceTree = "<group>"; };
+		61EAE65826B194FD00622558 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Screen.swift; path = "../../../recrutaskios/Tests iOS/Screens/Screen.swift"; sourceTree = "<group>"; };
+		61EAE65A26B1952300622558 /* MenuTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTest.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/Tests/MenuTest.swift"; sourceTree = "<group>"; };
+		61EAE65C26B1952800622558 /* FormTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormTests.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/Tests/FormTests.swift"; sourceTree = "<group>"; };
+		61EAE65E26B1952D00622558 /* ListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTest.swift; path = "../../../Documents/personal/tasks/recrutaskios-main/Tests iOS/Tests/ListTest.swift"; sourceTree = "<group>"; };
+		61EAE66026B1953800622558 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "../../Documents/personal/tasks/recrutaskios-main/Tests iOS/TestUtils/Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +184,10 @@
 		04FE6C1626A4B8F00069CAC2 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
+				61EAE64B26B1941600622558 /* Utils */,
+				61EAE66026B1953800622558 /* Utils.swift */,
+				61EAE64A26B1940F00622558 /* Screens */,
+				61EAE64926B1940300622558 /* Tests */,
 				04FE6C1726A4B8F00069CAC2 /* Tests_iOS.swift */,
 				04FE6C1926A4B8F00069CAC2 /* Info.plist */,
 			);
@@ -201,6 +221,34 @@
 				0478470326A57A5D00A0BC6B /* featureDataInfo.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		61EAE64926B1940300622558 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61EAE65E26B1952D00622558 /* ListTest.swift */,
+				61EAE65A26B1952300622558 /* MenuTest.swift */,
+				61EAE65C26B1952800622558 /* FormTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		61EAE64A26B1940F00622558 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				61EAE65226B1947700622558 /* FormScreen.swift */,
+				61EAE65826B194FD00622558 /* Screen.swift */,
+				61EAE65426B1948100622558 /* ListScreen.swift */,
+				61EAE64E26B1945B00622558 /* MenuScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		61EAE64B26B1941600622558 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,7 +440,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EAE65926B194FD00622558 /* Screen.swift in Sources */,
+				61EAE64F26B1945B00622558 /* MenuScreen.swift in Sources */,
+				61EAE66126B1953800622558 /* Utils.swift in Sources */,
+				61EAE65D26B1952800622558 /* FormTests.swift in Sources */,
+				61EAE65B26B1952300622558 /* MenuTest.swift in Sources */,
+				61EAE65526B1948100622558 /* ListScreen.swift in Sources */,
+				61EAE65F26B1952D00622558 /* ListTest.swift in Sources */,
 				04FE6C1826A4B8F00069CAC2 /* Tests_iOS.swift in Sources */,
+				61EAE65326B1947700622558 /* FormScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
